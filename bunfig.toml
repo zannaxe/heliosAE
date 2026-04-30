@@ -1,0 +1,11 @@
+# HeliosAE — Bun configuration
+# Part of AERIS Nexus
+
+[alias]
+# Mock internal Anthropic packages (not available on npm)
+"@ant/computer-use-mcp" = "./src/mocks/@ant/computer-use-mcp/index.ts"
+"@ant/computer-use-mcp/types" = "./src/mocks/@ant/computer-use-mcp/types.ts"
+"@ant/computer-use-mcp/sentinelApps" = "./src/mocks/@ant/computer-use-mcp/sentinelApps.ts"
+"@ant/computer-use-input" = "./src/mocks/@ant/computer-use-input/index.ts"
+"@ant/computer-use-swift" = "./src/mocks/@ant/computer-use-swift/index.ts"
+"@ant/claude-for-chrome-mcp" = "./src/mocks/@ant/claude-for-chrome-mcp/index.ts"
